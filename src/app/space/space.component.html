@@ -1,0 +1,20 @@
+<table>
+  <tr *ngFor="let r of rows">
+    <td *ngFor="let c of cols">
+      <div [class.is-selected]="isSelected(r,c)" class="default">
+        <i *ngIf="direction=='north'" class="material-icons icon">
+          keyboard_arrow_up
+        </i>
+        <i *ngIf="direction=='south'" class="material-icons icon">
+          keyboard_arrow_down
+        </i>
+        <i *ngIf="direction=='west'" class="material-icons icon">
+          keyboard_arrow_left
+        </i>
+        <i *ngIf="direction=='east'" class="material-icons icon">
+          keyboard_arrow_right
+        </i>
+      </div>
+    </td>
+  </tr>
+</table>

@@ -1,0 +1,16 @@
+.default {
+    width: 75px;
+    height: 75px;
+    background: black;
+}
+
+.is-selected {
+    width: 75px;
+    height: 75px;
+    background: red;
+}
+
+.icon {
+    font-size: 40px;
+    margin: 18px;
+}

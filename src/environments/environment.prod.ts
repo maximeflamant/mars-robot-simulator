@@ -1,3 +1,5 @@
 export const environment = {
-  production: true
+  production: true,
+  MAX_WIDTH: 5,
+  MAX_HEIGHT: 5
 };

@@ -1,0 +1,16 @@
+<h2> Command Station</h2>
+<input #cmd placeholder="Press Enter to Execute the Command" autoGrow/>
+<button (click)="execute(cmd.value)">Click me!</button>
+<div *ngIf="report" class="margin-10px">
+  <span>
+    <b>Report:</b>
+    <span>{{report}}</span>
+  </span>
+</div>
+
+<h3>History:</h3>
+<div class="history">
+  <div *ngFor="let cmd of history">
+    {{cmd}}
+  </div>
+</div>
