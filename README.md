@@ -1,6 +1,11 @@
 # MarsRobotUi
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.7.3.
+## Getting Started
+
+```shell
+$ git clone https://github.com/skolipaka/mars-robot-ui.git
+$ npm i
+```
 
 ## Development server
 
